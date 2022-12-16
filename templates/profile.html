@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/profile.css">
+    </head>
+    <body>
+        <aside>
+            <img src="{{profile-picture}}" alt="Profile picture">
+            <br>
+            <span class="profile-name">{{name}}</span>
+        </aside>
+        <main>
+            <section>
+                <h2>Description</h2>
+                <p>{{description}}</p>
+            </section>
+            <section>
+                <h2>Gallery</h2>
+                {{gallery-images}}
+            </section>
+        </main>
+    </body>
+</html>
